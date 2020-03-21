@@ -92,12 +92,8 @@ export default class IndexPage extends React.Component<PageProps> {
             </GridRow>
             <GridRow>
               <HomepageContent>
-                <h2>About Me</h2>
-                <p>
-                  Though I am a results-driven front-end developer by day who have converted inactive designs to fully interactive,
-                  well-developed, accessible and standards-based user interfaces. I am completely enthusiast with a full stack environment
-                  and passionate about JavaScript world.
-                </p>
+                <h2>안녕하세요 ?</h2>
+                <p>개발자를 업으로 삼고 있는 조주한입니다. 잘 부탁드려요~</p>
                 <hr />
                 <h2>Latest Blog</h2>
                 {edges.map(post => (
